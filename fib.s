@@ -30,7 +30,6 @@
 
     all_done:
       mov r1,r5       // move output to r1 for printing
-      //ldr r1,[r1]
       svc 0
     
     pop {r4,r5,r6,r7,lr}
